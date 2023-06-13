@@ -24,7 +24,7 @@ Add the repository which package is located
 "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:ucodefusion/package-menu.git" 
+            "url": "git@github.com:RusiruDananga/package-activity.git" 
         }
     ],
 ```

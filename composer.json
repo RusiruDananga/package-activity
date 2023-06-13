@@ -20,7 +20,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ucodefusion/package-activity.git",
+            "url": "https://github.com/RusiruDananga/package-activity.git",
             "options": {
                 "ssl": {
                     "verify_peer": "true",
