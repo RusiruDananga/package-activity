@@ -1,6 +1,6 @@
 # RusiruD Activity Package Installation Guide
 ## Package Description
-This laravel activity package is designed to create activities whcih are happen in your project.  
+This Laravel activity package is designed to create activities which are happen in your project.  
 Go throught the installation process and install the package into your project.
 
 ## Installation
