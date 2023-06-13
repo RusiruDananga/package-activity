@@ -1,0 +1,57 @@
+{
+    "name": "rusirud/activity",
+    "description": "This package will allow you to log various activities done in your project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RusiruDananga",
+            "email": "rusirudananga97@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RusiruD\\Activity\\": "src/"
+        }
+    },
+    "files": [
+        "Helpers/ActivityLog.php"
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ucodefusion/package-activity.git",
+            "options": {
+                "ssl": {
+                    "verify_peer": "true",
+                    "verify_peer_name": "true",
+                    "allow_self_signed": "false"
+                }
+            }
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "config": {
+        "github-oauth": {
+            "github.com": "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"
+        },
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RusiruD\\Activity\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
